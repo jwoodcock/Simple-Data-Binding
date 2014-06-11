@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Simple Data Binding in JavaScript</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="right_content">
+            <h2>Our model</h2>
+            <div id="model_output"></div>
+        </div>
+        <div class="left_content">
+            <h2>Our inputs</h2>
+            <div class="element">
+                Title: <input type="text" name="title" id="title" data-bind="title" />
+            </div>
+            <div class="element">
+                Flag: <input type="checkbox" name="flag" id="flag" data-bind="flag" />
+            </div>
+            <div class="element">
+                Description:<br />
+                <textarea id="description" name="description" rows="20" data-bind="description"></textarea>
+            </div>
+        </div>
+
+        <script src="databinder.js"></script>
+        <script src="setup.js"></script>
+    </body>
+</html>

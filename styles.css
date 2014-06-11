@@ -1,0 +1,25 @@
+body {
+    background: #cccccc;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+
+.right_content {
+    float: right;
+    width: 30%;
+    border-left: 1px solid;
+    min-height: 400px;
+    padding: 5px;
+}
+
+.left_content {
+    width: 70%;
+}
+
+#title {
+    width: 89%;
+}
+
+#description {
+    width: 95%;
+}
